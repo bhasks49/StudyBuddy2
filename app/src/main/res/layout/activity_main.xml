@@ -24,4 +24,13 @@
         android:background="@color/abc_search_url_text_normal"
         android:clickable="true" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_below="@+id/timer_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
 </RelativeLayout>
