@@ -17,51 +17,64 @@
         android:layout_height="wrap_content"
         android:text="@string/timer"
         android:id="@+id/timer_button"
-        android:layout_marginTop="45dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
         android:background="@color/buttoncolor"
-        android:clickable="true" />
+        android:clickable="true"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/classinfo"
         android:id="@+id/button"
-        android:layout_below="@+id/timer_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp"
-        android:background="@color/buttoncolor" />
+        android:background="@color/buttoncolor"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/mygrades"
         android:id="@+id/button2"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
-        android:background="@color/buttoncolor" />
+        android:background="@color/buttoncolor"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/curassign"
         android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
-        android:background="@color/buttoncolor" />
+        android:background="@color/buttoncolor"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/upcomassign"
         android:id="@+id/button4"
-        android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp"
-        android:background="@color/buttoncolor" />
+        android:background="@color/buttoncolor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="\@string/buddy"
+        android:id="@+id/button5"
+        android:background="@color/buttoncolor"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

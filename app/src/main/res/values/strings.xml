@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">StudyBuddy</string>
+    <string name="app_name">Study Buddy</string>
     <string name="hello_world">Hello World!</string>
 
     <string name="welcome">Welcome to Study Buddy!</string>
@@ -17,4 +17,7 @@
 
     <string name="upcomassign">Upcoming Assignments</string>
 
+    <string name="buddy">My Buddy</string>
+
 </resources>
+
