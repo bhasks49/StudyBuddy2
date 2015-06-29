@@ -9,15 +9,21 @@
     <string name="timer_info">Use this timer to keep track of how long you want to study</string>
     <string name="title_activity_timer">Timer</string>
 
-    <string name="classinfo">My Classes</string>
+    <string name="courses">My Courses</string>
+    <string name="course_info">This page will keep track of the courses you are currently enrolled in.</string>
 
-    <string name="mygrades">My Grades</string>
+    <string name="grades">My Grades</string>
+    <string name="grades_info">This page will have your current grades that you have inputed into the app. It will also contain
+        calculations so you can know how well you are doing in your classes.</string>
 
-    <string name="curassign">Current Assignments</string>
-
-    <string name="upcomassign">Upcoming Assignments</string>
+    <string name="assign">Assignments</string>
+    <string name="assign_info">This page will be able to keep track of all your upcoming assignments. You will be able
+        to add new assignments here and see which are coming up along with info on them. Notifications can be set here as well</string>
 
     <string name="buddy">My Buddy</string>
+    <string name="title_activity_courses">Courses</string>
+    <string name="title_activity_grades">Grades</string>
+    <string name="title_activity_assignments">Assignments</string>
 
 </resources>
 
