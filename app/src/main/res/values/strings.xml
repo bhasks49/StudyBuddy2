@@ -25,5 +25,8 @@
     <string name="title_activity_grades">Grades</string>
     <string name="title_activity_assignments">Assignments</string>
 
+    <string name="title_activity_class_info"> Class Information </string>
+
+
 </resources>
 

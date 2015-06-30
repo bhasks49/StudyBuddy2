@@ -20,16 +20,16 @@ import android.widget.Toast;
 
 import java.util.Scanner;
 
-public class Courses extends AppCompatActivity {
+public class ClassInformation extends AppCompatActivity {
 
-    public Courses() {
+    public ClassInformation() {
 
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_courses);
+        setContentView(R.layout.activity_class_info);
 
 
         String[] myClasses = { "CS2", "FOCS", "FOA" };
@@ -46,7 +46,7 @@ public class Courses extends AppCompatActivity {
 
                 String classPicked = "You selected " + String.valueOf(adapterView.getItemAtPosition(position));
 
-                Toast.makeText(Courses.this, classPicked, Toast.LENGTH_SHORT).show();
+                Toast.makeText(ClassInformation.this, classPicked, Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -54,7 +54,7 @@ public class Courses extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_courses, menu);
+        getMenuInflater().inflate(R.menu.menu_class_info, menu);
         return true;
     }
 
@@ -89,6 +89,3 @@ public class Courses extends AppCompatActivity {
 
 
 }
-
-
-
