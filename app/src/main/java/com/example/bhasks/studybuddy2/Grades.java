@@ -1,25 +1,24 @@
 package com.example.bhasks.studybuddy2;
 
-import android.content.Intent;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class MainActivity extends AppCompatActivity {
+public class Grades extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_grades);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_grades, menu);
         return true;
     }
 
@@ -37,25 +36,4 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    public void openTimer(View view) {
-        Intent intent= new Intent(this, Timer.class);
-        startActivity(intent);
-    }
-
-    public void openCourses(View view) {
-        Intent intent= new Intent(this, Courses.class);
-        startActivity(intent);
-    }
-
-    public void openGrades(View view) {
-        Intent intent= new Intent(this, Grades.class);
-        startActivity(intent);
-    }
-
-    public void openAssignments(View view) {
-        Intent intent= new Intent(this, Assignments.class);
-        startActivity(intent);
-    }
-
 }

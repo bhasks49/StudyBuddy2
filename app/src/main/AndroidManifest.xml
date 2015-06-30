@@ -24,6 +24,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.bhasks.studybuddy2.MainActivity" />
         </activity>
+        <activity
+            android:name=".Courses"
+            android:label="@string/title_activity_courses" >
+        </activity>
+        <activity
+            android:name=".Grades"
+            android:label="@string/title_activity_grades" >
+        </activity>
+        <activity
+            android:name=".Assignments"
+            android:label="@string/title_activity_assignments" >
+        </activity>
     </application>
 
 </manifest>
