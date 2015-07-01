@@ -1,9 +1,13 @@
 package com.example.bhasks.studybuddy2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
+import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -12,6 +16,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button classInformationButton = (Button) findViewById(R.id.button);
+        classInformationButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ClassInformation.class));
+            }
+        });
+
     }
 
     @Override
@@ -35,4 +47,25 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void openTimer(View view) {
+        Intent intent= new Intent(this, Timer.class);
+        startActivity(intent);
+    }
+
+    public void openCourses(View view) {
+        Intent intent= new Intent(this, Courses.class);
+        startActivity(intent);
+    }
+
+    public void openGrades(View view) {
+        Intent intent= new Intent(this, Grades.class);
+        startActivity(intent);
+    }
+
+    public void openAssignments(View view) {
+        Intent intent= new Intent(this, Assignments.class);
+        startActivity(intent);
+    }
+
 }
