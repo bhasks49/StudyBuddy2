@@ -28,5 +28,25 @@
     <string name="title_activity_class_info"> Class Information </string>
 
 
+
+
+    <string name="classesList">Course</string>
+    <string name="credits">Credits</string>
+    <string name="percentIn">Percent In</string>
+    <string name="Grade">Grade</string>
+    <string name="GPA">GPA</string>
+    <string name="maxFinal">Max Final</string>
+    <string name="minFinal">Min Final</string>
+
+
+    <string name="class1Name">CS2</string>
+    <integer name="class1Credits">5</integer>
+    <integer name="class1PercentIn">30</integer>
+    <!--<double name="hh">4.5</double>  -->
+
+    <string name="class2Name">FOCS</string>
+
+    <string name="total1">Total</string>
+
 </resources>
 

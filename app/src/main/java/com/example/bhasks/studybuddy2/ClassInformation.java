@@ -49,6 +49,20 @@ public class ClassInformation extends AppCompatActivity {
                 Toast.makeText(ClassInformation.this, classPicked, Toast.LENGTH_SHORT).show();
             }
         });
+
+        String class1Name= "CS2";
+        String class1Assignment1= "HW1";
+        int class1Ass1Weight= 4;
+        int class1Ass1Grade= 90;
+        String class1Assignment2= "Exam 1";
+        int class1Ass2Weight= 10;
+        int class1Ass2Grade= 70;
+
+        double class1Ass1Final= class1Ass1Grade*class1Ass1Weight/100;
+        double class1Ass2Final= class1Ass2Grade*class1Ass2Weight/100;
+        double class1PercentIn= class1Ass1Weight + class1Ass2Weight;
+        double class1CurrentGrade= (100*class1PercentIn)*(class1Ass1Final+class1Ass2Final);
+
     }
 
     @Override

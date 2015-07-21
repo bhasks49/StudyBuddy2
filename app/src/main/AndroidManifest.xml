@@ -31,7 +31,12 @@
         </activity>
         <activity
             android:name=".Grades"
-            android:label="@string/title_activity_grades" >
+            android:label="@string/title_activity_grades"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bhasks.studybuddy2.MainActivity" />
         </activity>
         <activity
             android:name=".Assignments"
